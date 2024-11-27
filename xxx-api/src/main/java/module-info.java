@@ -1,3 +1,4 @@
 module api.module {
-    requires domain.module;
+    requires static domain.module;
+    uses com.domain.service.StringRepository;
 }
